@@ -1,10 +1,45 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const classroom = ['Jumary', 'Deandrea','Micheal', 'Denis', 'Patrick', 'Carlos', 'Marc']
+
+
+for (let i= 0; i < classroom.length; i++){
+    console.log(classroom[i])
+}
 
 
 
+function getFirstItemFrom(School){
 
+  return School[0];
+  }
+  function getLastItemFrom(is){
+    return is[is.length -1];
+  }
+  function getIndex3 (array){
+    if ((array.length) < 4){
+      return array[array.length -1];
+    }
+    return array[3];
+  }
+  function isLongList(stressful){
+    if (stressful.length >= 10){
+      return true;
+    } else {
+      return false;
+    }
+  }
+  function firstItemIsNumber(atTimes){
+    if(typeof atTimes[0] === 'number' ){
+      return true;
+    }else {
+        return false;
+      }
+    }
+  function secondCharOfThirdString(IGotThis){
+    return IGotThis[2][1];
+  }
 
 
 
